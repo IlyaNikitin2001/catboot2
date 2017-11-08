@@ -65,6 +65,14 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+				<groupId>com.heroku.sdk</groupId>
+				<artifactId>heroku-maven-plugin</artifactId>
+				<version>1.2.1</version>
+				<!--<configuration>-->
+				<!--&lt;!&ndash;<appName>catboot</appName>&ndash;&gt;-->
+				<!--</configuration>-->
+			</plugin>
 		</plugins>
 	</build>
 
