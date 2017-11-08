@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+    jpa:
+        database: MYSQL
+        hibernate:
+            ddl-auto: create
+
+    datasource:
+        url: jdbc:mysql://y0nkiij6humroewt.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/f79ba7eeeho9ksw4?sslmode=require
+        username: sivr1mjf9huqbs4q
+        password: mhw0pkna5iqzyrsc
+        name: f79ba7eeeho9ksw4
+        driver-class-name: com.mysql.jdbc.Driver
